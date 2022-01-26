@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Testing.Models;
+using ASPNET.Models;
 
-namespace Testing
+namespace ASPNET
 {
     public interface IProductRepository
     {

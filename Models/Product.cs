@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Testing.Models
+namespace ASPNET.Models
 {
     public class Product
     {
