@@ -4,6 +4,7 @@ namespace ASPNET.Controllers
 {
     public class ProductController : Controller
     {
+        private readonly IProductRepository repo;
         public ProductController(IProductRepository repo)
         {
             this.repo = repo;
