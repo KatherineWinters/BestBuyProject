@@ -23,11 +23,5 @@ namespace ASPNET.Controllers
 
             return View(product);
         }
-        public IActionResult ViewProduct(int id)
-        {
-            var product = repo.GetProduct(id);
-
-            return View(product);
-        }
     }
 }
